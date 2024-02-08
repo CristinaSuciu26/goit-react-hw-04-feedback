@@ -1,0 +1,42 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px rgb(198, 196, 196);
+  font-size: 25px;
+}
+ul {
+  list-style-type: none;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.buttons {
+  width: 127px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 3px rgb(211, 214, 211);
+  cursor: pointer;
+  background-color: white;
+  border-color: #faf7f7;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.buttons:hover {
+  background-color: #48beac;
+  box-shadow: 2px 3px #8eeee2;
+  color: white;
+  border: none;
+}
+.buttons:active {
+  transform: translate3d(0, 6px, 0);
+}
